@@ -1,0 +1,54 @@
+rowname,nicename
+(Intercept),Intercept
+nt_is_medianoteTRUE,Is Medianote
+nt_class_misinfoTRUE,Class: Misinfo
+nt_class_trustsourceTRUE,Class: Trustsource
+nt_class_mis_misleadingTRUE,Class: Mis Misleadin
+nt_class_mis_notfactualTRUE,Class: Mis Notfactua
+nt_class_mis_mediamanipTRUE,Class: Mis Mediamani
+nt_class_mis_outdatedTRUE,Class: Mis Outdated
+nt_class_mis_nocontextTRUE,Class: Mis Nocontext
+nt_class_mis_unverifiedTRUE,Class: Mis Unverifie
+nt_class_mis_satireTRUE,Class: Mis Satire
+nt_class_notmis_otherTRUE,Class: Notmis Other
+nt_class_notmis_correctTRUE,Class: Notmis Correc
+nt_class_notmis_satireTRUE,Class: Notmis Satire
+nr_ratings_ct,Rating: Ratings Count
+nr_rating_helpful,Rating: Helpful
+nr_rating_helpful_somewhat,Rating:  Helpful Some
+nr_helpful_other,Rating: Helpful Other
+nr_helpful_clear,Rating: Helpful Clear
+nr_helpful_sources,Rating: Helpful Source
+nr_helpful_address,Rating: Helpful Address
+nr_helpful_ctxt_impt,Rating: Helpful Ctxt
+nr_helpful_unbiased,Rating: Helpful Unbiased
+nr_nothelpful_other,Rating: Nothelp Other
+nr_nothelpful_incorrect,Rating: Nothelp Incorrect
+nr_nothelpful_source,Rating: Nothelp Source
+nr_nothelpful_understand,Rating: Nothelp Underst
+nr_nothelpful_argument,Rating: Nothelp Arg
+nr_nothelpful_spam,Rating: Nothelp Spam
+nr_nothelpful_source_irrev,Rating: Nothelp SrcIrrel
+nr_nothelpful_opinion_spec,Rating: Nothelp Opinion
+twt_views,Post: Views
+twt_replies,Post: Replies
+twt_retweets,Post: Retweets
+twt_likes,Post: Likes
+twt_quotes,Post: Quotes
+twt_is_quoteTRUE,Post: Is Quote
+user_follower_ct,Author: Follower Ct
+user_friend_ct,Author: Friend Ct
+user_blueTRUE,Author: Blue
+user_account_age,Author: Account Age
+twt_lang_de,Post Lang: German
+twt_lang_en,Post Lang: English
+twt_lang_es,Post Lang: Spanish
+twt_lang_et,Post Lang: Estonian
+twt_lang_fr,Post Lang: French
+twt_lang_hi,Post Lang: Hindi
+twt_lang_it,Post Lang: Italian
+twt_lang_ja,Post Lang: Japanese
+twt_lang_pl,Post Lang: Polish
+twt_lang_pt,Post Lang: Portuguese
+twt_lang_qme,Post Lang: QME
+twt_lang_zxx,Post Lang: NA
