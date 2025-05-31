@@ -670,7 +670,7 @@ wrap_plots(plots, ncol = 3, heights=5)
 
 ### 6.3.2 Random Forest
 
-In addition to Quantile regression, I fit a random forest model to identify key features affecting Community Note time-to-publication. Using the `ranger` package with 1000 trees and impurity-based variable importance, the model achieved a fairly low $R^2$ of 0.15, confirming the dataset contains substantial variability that cannot be explained by the Post, Note and User variables alone.
+In addition to Quantile regression, a random forest model was fit to identify key features affecting Community Note time-to-publication. Using the `ranger` package with 1000 trees and impurity-based variable importance, the model achieved a fairly low $R^2$ of 0.15, confirming the dataset contains substantial variability that cannot be explained by the Post, Note and User variables alone.
 
 Despite the weakness of the model, the feature importance rankings agreed in many instances with the Quantile regression, confirming the strong effects of Rating counts and Note Helpful classifications, while seeming to emphasize User Account and Post Engagement metrics more heavily.
 
@@ -769,7 +769,7 @@ When evaluated against X's [own stated objectives](https://communitynotes.x.com/
 
 This minimal coverage suggests that users and brands remained exposed to potential misinformation with little protection from the Community Notes program during the 2024 U.S. Presidential Election.
 
-While conceptually promising, the program in its current state appears inadequate to address the scale and complexity of misinformation, particularly during critical periods like elections. The systematic variations in publication speed and extremely low coverage rate suggest fundamental limitations that would need to be addressed for the program to serve as an effective intervention tool.
+While conceptually promising, the program in its current state appears inadequate to address the scale and complexity of misinformation, particularly during critical periods such as elections. The systematic variations in publication speed and extremely low coverage rate suggest fundamental limitations that would need to be addressed for the program to serve as an effective intervention tool.
 
 **Future Research Directions**
 
@@ -785,7 +785,7 @@ While conceptually promising, the program in its current state appears inadequat
 
 ## 6.5 Code and Data
 
--   This paper and all code used for data processing and analysis may be found at <https://github.com/jefedigital/social-cdi-effectiveness>.
+-   This paper and all code used for data processing and analysis may be found at <https://github.com/jefedigital/x-community-notes-effectiveness>.
 
 -   The original **USC X 24 US election X Dataset** is hosted at <https://github.com/sinking8/usc-x-24-us-election>.
 

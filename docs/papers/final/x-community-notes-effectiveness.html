@@ -1010,7 +1010,7 @@ Note is Somewhat Helpful</th>
 </section>
 <section id="random-forest" class="level3">
 <h3 class="anchored" data-anchor-id="random-forest">6.3.2 Random Forest</h3>
-<p>In addition to Quantile regression, I fit a random forest model to identify key features affecting Community Note time-to-publication. Using the <code>ranger</code> package with 1000 trees and impurity-based variable importance, the model achieved a fairly low <span class="math inline">\(R^2\)</span> of 0.15, confirming the dataset contains substantial variability that cannot be explained by the Post, Note and User variables alone.</p>
+<p>In addition to Quantile regression, a random forest model was fit to identify key features affecting Community Note time-to-publication. Using the <code>ranger</code> package with 1000 trees and impurity-based variable importance, the model achieved a fairly low <span class="math inline">\(R^2\)</span> of 0.15, confirming the dataset contains substantial variability that cannot be explained by the Post, Note and User variables alone.</p>
 <p>Despite the weakness of the model, the feature importance rankings agreed in many instances with the Quantile regression, confirming the strong effects of Rating counts and Note Helpful classifications, while seeming to emphasize User Account and Post Engagement metrics more heavily.</p>
 <div class="cell">
 <details class="code-fold">
@@ -1115,7 +1115,7 @@ R squared (OOB):                  0.1544627 </code></pre>
 <li><p>The extremely limited coverage (0.014% of posts) and low publication rate (4% of notes) suggest the program falls far short of providing effective intervention at scale.</p></li>
 </ol>
 <p>This minimal coverage suggests that users and brands remained exposed to potential misinformation with little protection from the Community Notes program during the 2024 U.S. Presidential Election.</p>
-<p>While conceptually promising, the program in its current state appears inadequate to address the scale and complexity of misinformation, particularly during critical periods like elections. The systematic variations in publication speed and extremely low coverage rate suggest fundamental limitations that would need to be addressed for the program to serve as an effective intervention tool.</p>
+<p>While conceptually promising, the program in its current state appears inadequate to address the scale and complexity of misinformation, particularly during critical periods such as elections. The systematic variations in publication speed and extremely low coverage rate suggest fundamental limitations that would need to be addressed for the program to serve as an effective intervention tool.</p>
 <p><strong>Future Research Directions</strong></p>
 <ul>
 <li><p>Analysis of Community Notes user base quality scores and participation rates on publish outcomes.</p></li>
@@ -1128,7 +1128,7 @@ R squared (OOB):                  0.1544627 </code></pre>
 <section id="code-and-data" class="level2">
 <h2 class="anchored" data-anchor-id="code-and-data">6.5 Code and Data</h2>
 <ul>
-<li><p>This paper and all code used for data processing and analysis may be found at <a href="https://github.com/jefedigital/social-cdi-effectiveness" class="uri">https://github.com/jefedigital/social-cdi-effectiveness</a>.</p></li>
+<li><p>This paper and all code used for data processing and analysis may be found at <a href="https://github.com/jefedigital/x-community-notes-effectiveness" class="uri">https://github.com/jefedigital/x-community-notes-effectiveness</a>.</p></li>
 <li><p>The original <strong>USC X 24 US election X Dataset</strong> is hosted at <a href="https://github.com/sinking8/usc-x-24-us-election" class="uri">https://github.com/sinking8/usc-x-24-us-election</a>.</p></li>
 <li><p>All <strong>X Community Notes</strong> datasets are publicly available at <a href="https://x.com/i/communitynotes/download-data" class="uri">https://x.com/i/communitynotes/download-data</a>.</p></li>
 </ul>
