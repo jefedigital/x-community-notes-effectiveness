@@ -17,5 +17,5 @@ Preprocessed parquet versions of these datasets are available on Hugging Face.
 
 ### References
 
-Balasubramanian, Ashwin, Vito Zou, Hitesh Narayana, Christina You, Luca Luceri, and Emilio Ferrara. n.d. “A Public Dataset Tracking Social Media Discourse about the 2024 u.s. Presidential Election on Twitter/x.” https://doi.org/10.48550/arXiv.2411.00376.
+Balasubramanian, Ashwin, Vito Zou, Hitesh Narayana, Christina You, Luca Luceri, and Emilio Ferrara. n.d. “A Public Dataset Tracking Social Media Discourse about the 2024 U.S. Presidential Election on Twitter/X.” https://doi.org/10.48550/arXiv.2411.00376.
 
