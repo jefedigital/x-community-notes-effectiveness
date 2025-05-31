@@ -1,5 +1,5 @@
 ---
-title: 'Effectiveness and Systematic Constraints of Community Notes'
+title: 'Effectiveness and Systematic Constraints of X Community Notes'
 subtitle: 'A Quantitative Analysis of Misinformation Intervention on X During the 2024 U.S. Election'
 author: 'Jeff Parks, CUNY DATA 698 Research Project'
 date: 'May 13, 2025'
