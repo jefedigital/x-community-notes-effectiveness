@@ -288,11 +288,11 @@ Initial exploration of the two datasets revealed several major insights:
 
 -   Although a current metric of misinformation on the platform is not readily available, this percentage seems rather low given the typical user experience and general prevalence of this content, especially during the 2024 election.
 
-**Only 4% of all submitted Community Notes have never been published; 96% remain hidden from the general public.**
+**Only 4% of all submitted Community Notes have ever been published; 96% remain hidden from the general public.**
 
 -   Of the 13,745 election-related notes, only 585 (4.3%) were ever published (classified Helpful) at some point. 12,238 (89%) were still classified "Need More Votes" (NMR) three months after the November 2024 election.
 
-**The median Community Note time-to-publish (TTP) is 8.7 hours, but with a large amount of variation (Mean 35.8 and SD 158.7)**
+**The median Community Note time-to-publish (TTP) is 8.7 hours, but with a great degree of variation (Mean 35.8 and SD 158.7)**
 
 ```{r}
 #| fig-width: 8
@@ -642,7 +642,7 @@ wrap_plots(plots, ncol = 3, heights=5)
 
 **Shorter TTP in Lower Quartiles**
 
--   Post **Likes** have the opposite effect of the other engagement metrics, associated with shorter TPP in the early quartiles, and longer TTP in the later quartiles.
+-   Post **Likes** have the opposite effect of the other engagement metrics, associated with shorter TTP in the early quartiles, and longer TTP in the later quartiles.
     -   One possible explanation for the disparity is that Likes may be a more direct signal of user agreement than Replies, Views or even Retweets, and that the relative popularity of Posts in the earlier quartiles may correlate to increased Rater activity.
     -   This could also be an effect of a recommendation algorithm that prompts Raters to respond to Notes; Likes may be one of many signals that trigger the prompt.
 
@@ -666,7 +666,7 @@ wrap_plots(plots, ncol = 3, heights=5)
 **Shorter TTP**
 
 -   **Author - Blue:** Posts from premium "Blue" accounts were associated with significantly shorter TTP in the early quartiles. While this could be an effect of Blue posts receiving preferential, more frequent placement in user feeds, we might consider whether this supports research into Blue accounts driving a larger share of overall misinformation on the platform. [@brewster2023]
--   **Friend Count** and **Follower Count**: Both variables are associated with 5-10% shorter TPP in the first three quartiles, possibly correlated to Posts with larger followings and reach.
+-   **Friend Count** and **Follower Count**: Both variables are associated with 5-10% shorter TTP in the first three quartiles, possibly correlated to Posts with larger followings and reach.
 
 ### 6.3.2 Random Forest
 
