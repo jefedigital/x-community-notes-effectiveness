@@ -1,8 +1,8 @@
-## Effectiveness and Systematic Constraints of Community Notes
+## Effectiveness and Systematic Constraints of X Community Notes
 ### A Quantitative Analysis of Misinformation Intervention on X During the 2024 U.S. Election
 
 Read paper at:<br>
-https://jefedigital.github.io/social-cdi-effectiveness/papers/final/x-community-notes-effectiveness.html
+https://jefedigital.github.io/x-community-notes-effectiveness/papers/final/x-community-notes-effectiveness.html
 
 ### Abstract
 
